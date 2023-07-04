@@ -1,13 +1,17 @@
 # grupo_5_proyectointegrador
 Proyector integrador digitalhouse
 
-* 	La principal oferta del sitio sería la venta de videojuegos en formato digital en amplias categorías y diversos títulos además de contar con juegos gratis y otros de pago 
-	Ofrecer una amplia selección de juegos que abarque diferentes géneros, plataformas y estilos de juego. Esto permitirá atender a los diversos intereses y gustos de los jugadores.
+// ¿Qué productos o servicios brindará nuestro sitio?
+
+* La principal oferta del sitio sería la venta de videojuegos en formato digital en amplias categorías y diversos títulos además de contar con juegos gratis y otros de pago 
+Ofrecer una amplia selección de juegos que abarque diferentes géneros, plataformas y estilos de juego. Esto permitirá atender a los diversos intereses y gustos de los jugadores.
 
 
+//¿Quién será nuestra audiencia objetivo?
 * va dirigido a un publico estusiasta por los videojuegos, jugadores casuales, coleccionistas de los videojuegos
 
 
+// ¿Cómo ajustaremos nuestra oferta a ese público?
 
 * Para ajustar nuestra oferta al público objetivo, podemos implementar las siguientes estrategias:
 
