@@ -24,3 +24,7 @@ c) Información detallada del producto: Proporcionemos descripciones completas d
 d) Ofertas especiales y descuentos: Ofrezcamos promociones periódicas, descuentos exclusivos y bundles de juegos para atraer a los compradores. Esto puede incluir ofertas por tiempo limitado, paquetes de juegos populares o incluso membresías de suscripción que brinden acceso a una biblioteca de juegos.
 
 e) Interacción comunitaria: Fomentemos una comunidad en nuestro sitio web donde los jugadores puedan compartir sus opiniones, reseñas y experiencias. Esto ayudará a construir una base de usuarios comprometidos y también puede influir en las decisiones de compra de otros jugadores.
+
+
+DESCRIPCION DE LOS INTEGRANTES DEL GRUPO :
+
