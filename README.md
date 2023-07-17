@@ -32,7 +32,7 @@ Ivan cruz: hola soy estudiante del profesorado de informática, tengo 24 años, 
 
 Rueda Miguel Mateo: Tengo 25 años, vivo en Maimará. Actualmente trabajo para SAME 107 como Radio Operador y estoy estudiando en el IES2 la carrera "Tecnicatura Superior en Mantenimiento Idustrial. Me gustan los videojuegos y todo lo relacionado a la programacion.
 
-
+Candela Zapata: no suelo jugar muchos videojuegos, así que no hay mucho más que pueda decir al respecto. Entre mis pasatiempos se encuentran la lectura y hornear.
 
 
 
@@ -44,6 +44,8 @@ PAGINAS WEB DE REFERENCIA:
 * uPlay: elegimos esta pagina por los colores y una un diseño simple pero bien estructurado además de contar con vistosas animaciones, el catalogo de esta pagina esta separado por es bloques bien definidos y fáciles de identificar además de centrarse el lo que el usuario busca.
 Además, a la visualidad un producto vemos claramente la información necesaria para el cliente además de contar con una paleta de coleres agradables a la vista, también muestra la información mas relevante al comienzo y deja lo menos relevante hasta abajo se toma algunas ideas para nuestro proyecto 
 
-* Planetagames.com.ar: por los productos que se venden, el carrucel vistoso en el inicio y un boton fijo en la pantalla para iniciar contacto por WhatsApp con los prestadores del servicio. 
+* Planetagames.com.ar: por los productos que se venden, el carrucel vistoso en el inicio y un boton fijo en la pantalla para iniciar contacto por WhatsApp con los prestadores del servicio.
+  
+* Steam como mi plataforma principal de juegos porque es la más grande y diversa, ofreciendo una increíble variedad de títulos para todos los gustos. Además, es la única que conozco y me encanta su interfaz ordenada. Uno de los juegos que me cautivó es "Astroneer" por su encantador diseño artístico y la mecánica de exploración y supervivencia espacial. También me fascinan los colores de cada escenario del juego.
 
 
