@@ -28,3 +28,14 @@ e) Interacción comunitaria: Fomentemos una comunidad en nuestro sitio web donde
 
 DESCRIPCION DE LOS INTEGRANTES DEL GRUPO :
 
+
+Ivan cruz: hola soy estudiante del profesorado de informática, tengo 24 años, soy de la ciudad perico, me gusta el diseño grafico y todo relacionado con la informática por eso escogí mi carrera además de fascinarme la programación y aprender nuevos códigos con nuevas funcionalidades 
+
+
+
+3) .
+   uPlay: elegimos esta pagina por los colores y una un diseño simple pero bien estructurado además de contar con vistosas animaciones, el catalogo de esta pagina esta separado por es bloques bien definidos y fáciles de identificar además de centrarse el lo que el usuario busca.
+Además, a la visualidad un producto vemos claramente la información necesaria para el cliente además de contar con una paleta de coleres agradables a la vista, también muestra la información mas relevante al comienzo y deja lo menos relevante hasta abajo se toma algunas ideas para nuestro proyecto 
+
+
+
