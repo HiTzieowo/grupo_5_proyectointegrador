@@ -56,4 +56,4 @@ Además, a la visualidad un producto vemos claramente la información necesaria 
 
 * Xbox Games: Elegimos  como modelo esta plataforma por lo accesible y rápida que resulta, además ofrece una interfaz que puede personalizarse y adaptarse de acuerdo a los gustos de cada usuario.
 
-* EpicGames: Resalta mucho su simpleza como su elegancia en su selección de colores además de buenas animaciones que le cierto dinamismo y estetica. Sin duda una página web para referenciarnos 
+* EpicGames: Resalta mucho su simpleza como su elegancia en su selección de colores además de buenas animaciones que le dan cierto dinamismo y estética a la home page. Sin duda una página web para referenciarnos 
