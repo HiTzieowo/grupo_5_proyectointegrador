@@ -38,9 +38,7 @@ DESCRIPCION DE LOS INTEGRANTES DEL GRUPO :
 
 *Luis Rojas: Hola, como están? Tengo 21 años y soy estudiante del Profesorado en Inglés y derecho. actualmente vivo en la ciudad de San Salvador de jujuy. Me interesa el mundo de la programación aunque mi base en ella no sea muy buena, pero entiendo que es de suma importancia tener conocimientos y crear una buena base.
 
-
-
-
+Tomás Morales: Vivo en San Salvador de Jujuy.Suelo jugar bastantes videojuegos, una de mis sagas favoritas es METRO. Me gusta mucho leer sobre el arte y un poco de filosofía. También de mis pasatiempos favoritos es escuchar música, en especial heavy metal, rock, genero progresivo, jazz, indie, etc. A mi parecer la programación tiene cosas bastante interesantes y no se me da muy bien pero intento mejorar.
 
 
 
@@ -58,4 +56,4 @@ Además, a la visualidad un producto vemos claramente la información necesaria 
 
 * Xbox Games: Elegimos  como modelo esta plataforma por lo accesible y rápida que resulta, además ofrece una interfaz que puede personalizarse y adaptarse de acuerdo a los gustos de cada usuario.
 
-
+* EpicGames: Resalta mucho su simpleza como su elegancia en su selección de colores además de buenas animaciones que le cierto dinamismo y estetica. Sin duda una página web para referenciarnos 
