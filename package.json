@@ -1,0 +1,15 @@
+{
+  "name": "grupo_5_proyectointegrador",
+  "version": "1.0.0",
+  "description": "Proyector integrador digitalhouse",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
