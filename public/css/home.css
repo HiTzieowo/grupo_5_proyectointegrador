@@ -1,0 +1,126 @@
+/* Paleta de colores */
+:root {
+    --color-amarillo: #EAC926;
+    --color-azul: #03264C;
+    --color-celeste: #1259c3;
+    --color-gris-oscuro: #666;
+    --color-gris-claro: #ebebeb;
+    --color-verde: #39b54a;
+  }
+ 
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+  body {
+    font-family: 'Roboto'; 
+    background-color: #EAC926; /* Cambia el color aquí, para todo la pagina  */
+  }
+  
+  
+  h1, h2 {
+    font-family: 'Roboto';
+   
+  }
+
+
+  ul, ol {
+    list-style: none; /* le quita los puntos a las listas */
+    padding: 0;
+    margin: 1;
+   
+  }
+  
+  nav ul li a {
+    text-decoration: none; /* Quita el subrayado de los enlaces dentro de la lista */
+    color: black; /* Establece el color del texto en negro */
+    padding-right: 1;
+  }
+  nav li {
+    margin-right: 10px; /* Margen derecho entre el texto del enlace y el icono */
+  }
+
+  /* Estilos para el icono */
+  nav i {
+    margin-left: 5px; /* Margen izquierdo entre el icono y el texto del enlace */
+  }
+
+  /* Estilo para el ícono de barras */
+.burger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  height: 40px;
+  background-color: #1259c3;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+
+
+
+/* Estilo para centrar el ícono en el menú */
+/* Agrega esta clase al contenedor del menú */
+.menu-container {
+  display: flex;
+  justify-content: center;
+}
+
+footer {
+  background-color: #ffffff; /* Amarillo */
+  color: black;
+  padding: 10px; /* Ajusta el padding según lo que necesites */
+  text-align: center;
+}  
+ /* Estilos para el texto de derechos de autor */
+ .derechos-autor {
+  margin-top: 20px; /* Ajusta el espacio entre el último párrafo y el texto de derechos de autor */
+  text-align: left; /* Alinea el texto a la izquierda */
+}
+
+.icono-tarjeta{
+  font-size: 50px;
+}
+
+.icono-de-envio{
+  font-size: 50px;
+}
+.icono-proteccion{
+  font-size: 50px;
+}
+
+/* Estilos para el contenedor de icono y texto */
+.icono-texto {
+  display: inline-flex;
+  align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para los iconos */
+.icono-texto i {
+  margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
+.boton-menu{
+  display: flex;
+  justify-content: center;
+}
+
+/* Estilos para cada sección */
+section {
+margin-top:40px ;
+  margin-bottom: 100px; /* Ajusta el valor según el espacio deseado entre secciones */
+}
+
+/* Estilos para el contenedor de icono y texto */
+.icono-texto {
+  display: inline-flex;
+  align-items: center; /* Centrar verticalmente los elementos */
+}
+
+/* Estilos para los iconos */
+.icono-texto i {
+  margin-right: 5px; /* Espacio entre el icono y el texto */
+}
+
