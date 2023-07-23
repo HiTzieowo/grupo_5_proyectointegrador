@@ -16,3 +16,7 @@ app.listen(3060, () => console.log("Servidor corriendo"));
 app.get("/iniciarSesion", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/iniciarSesion.html"))
 })
+
+app.get("/producto", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./views/producto.html"))
+})
