@@ -20,3 +20,7 @@ app.get("/iniciarSesion", (req, res) => {
 app.get("/producto", (req, res) => {
     res.sendFile(path.resolve(__dirname, "./views/producto.html"))
 })
+
+app.get("/registro", (req, res) => {
+    res.sendFile(path.resolve(__dirname, "./views/register.html"))
+})
