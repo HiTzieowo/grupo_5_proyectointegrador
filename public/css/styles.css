@@ -1,0 +1,84 @@
+* {
+    font-family: 'Bauhaus 93', sans-serif;
+    box-sizing: border-box;
+    color: white;
+    font-size: 14px;
+    border-radius: 10px;
+}
+h1 {
+    font-size: 30px;
+}
+header {
+    display: flex;
+    align-items: center;
+}
+
+body {
+    background: #0c192c;
+    background-image: url('/img/fondo-login.png'); /* Ruta de la imagen de fondo */
+    background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen de fondo */
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-end;
+    min-height: 100vh;
+    margin: 0;
+    position: relative;
+    right: 5vw;
+}
+
+.logo {
+    width: 30vw;
+}
+
+
+a {
+    text-decoration: none;
+    color: blue;
+}
+
+button{
+    color: #0c192c;
+}
+.login{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+
+.recordar{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+
+.email, .password{
+    width: 70%;
+    color: black;
+}
+
+.redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px 0px;
+}
+.gmail, .facebook{
+    width: 48%;
+}
+.icon {
+    width: 25px;
+    height:25px;
+}
+
+.iniciar-sesion{
+    background-color: skyblue;
+}
+footer{
+    display: flex;
+    justify-content: center;
+}

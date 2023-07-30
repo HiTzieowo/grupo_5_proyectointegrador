@@ -1,11 +1,45 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Inicio de Sesión</title>
+    <link rel="stylesheet" href="/css/styles.css">
 </head>
+
 <body>
-    hola
+    <main>
+        <header>
+            <img class="logo" src="img/logo-tienda.png" alt="Logo">
+            <h1>Nombre Pagina</h1>
+        </header>
+
+        <form class="login" action="/login" method="post">
+            <p>e-mail</p>
+            <input class="email" type="email" name="email" id="email" placeholder="Ingrese su email">
+            <p>Contraseña</p>
+            <input class="password" type="password" name="password" id="password" placeholder="Ingrese su contraseña">
+            <div class="recordar">
+                <label for="recordar">recordar</label>
+                <input type="checkbox" name="recordar" id="recordar">
+            </div>
+            <button class="iniciar-sesion" type="submit">Iniciar Sesión</button>
+        </form>
+        <form class="redes" action="/login" method="post">
+            <img class="icon" src="img/facebook-icon.png" alt="facebook">
+            <button class="facebook" type="button">Continuar con facebook</button>
+            <img class="icon" src="img/gmail-icon.png" alt="gmail">
+            <button class="gmail" type="button">Continuar con gmail</button>
+        </form>
+
+
+        <footer>
+            <span>¿No tienes una cuenta?</span>
+            <a href="register.html">Registrate</a>
+
+        </footer>
+    </main>
 </body>
+
 </html>
