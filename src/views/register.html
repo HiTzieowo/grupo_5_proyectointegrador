@@ -2,48 +2,66 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/css/register.css">
-    <title>Registrate</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/css/register.css">
+  <title>Registrate</title>
+  
+  <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
 </head>
-<body>
-    <img src="logo" alt="">
-     <h1>Nombre de la pagina</h1>
-      <div>
-       <p>nombres</p>
-       <input type="text" placeholder="Nombres">
-       <p>apellido</p>
-       <input type="text" placeholder="Apellidos">
-      </div>
-      <div>
-       <p>email</p>
-       <input type="text" placeholder="example@gmail.com">
-      </div>
-      <div>
-       <p>crear contraseña</p>
-       <input type="text" placeholder="Contraseña">
-       <p>confirmar contraseña</p>
-       <input type="text" placeholder="Repita la contraseña">
-      </div>
-      <div>
-       <p>Acepto los terminos y condiciones</p>
-      </div>
-      <div class="container">
-        <a href="http://localhost:3060/iniciarSesion">
-          <button class="iniciar-sesion" type="submit">Crear tu cuenta</button>
-        </a>
-      </div>
-      
 
-      <div>
-       <a href=" https://mail.google.com">Continua con Gmail</a>
-       <a href="https://www.facebook.com/">Continua con Facebook</a>
-      </div>
-      <div>
-        <a>¿ya tenes una cuenta?</a>
-       <a href="http://localhost:3060/iniciarSesion">Inicia sesion</a>
-      </div>
+<body>
+  <img class="img" src="\img\logo-tienda.png" alt="">
+  <h1>Registrarse</h1>
+  <form action="" method="post">
+    <span>
+      <label class="texto">Nombre:</label>
+      <input type="text">
+    </span>
+    <span>
+      <label class="texto">Apellidos</label>
+      <input type="text" placeholder="">
+    </span>
+    <p>
+      <label class="texto" for="email">Correo electrico</label>
+      <input type="email" placeholder="example@gmail.com">
+    </p>
+    <p>
+      <label class="texto">Crear contraseña</label>
+      <input type="password" placeholder="">
+    </p>
+    <p>
+      <label class="texto">Repita la contraseña</label>
+      <input type="password" placeholder="">
+    </p>
+    <p><input class="texto" type="checkbox"> Acepto los <a
+        href="https://store.steampowered.com/subscriber_agreement/spanish/">terminos y condiciones</a></p>
+  </form>
+  <div>
+    <a href="https://accounts.google.com/ServiceLogin">
+        <button class="buttonmail" type="submit">
+            <span>Registrarse con gmail</span>
+            <i class="fa-brands fa-google"></i>
+        </button>
+    </a>
+    <a href="https://www.facebook.com/">
+        <button type="submit" class="buttonface">
+            <span>Continua con Facebook</span>
+            <i class="fa-brands fa-facebook"></i>
+        </button>
+    </a>
+</div>
+
+  <div>
+    <p>
+      <a href="http://localhost:3060/iniciarSesion">
+
+
+        <button class="contra" type="submit">Crear Cuenta</button>
+      </a>
+    </p>
+  </div>
 </body>
+
 </html>
