@@ -1,0 +1,445 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/fondo.png'); /* Ruta de la imagen de fondo */
+      background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+      background-position: center; /* Centra la imagen de fondo */
+  }
+  /**** fin fondo de pagina******/
+  
+  .logo01 img {
+  width: 100%; /* La imagen ocupa todo el ancho del div */
+  height: auto; /* La altura se ajusta automáticamente para mantener las proporciones */
+  max-width: 300px; /* Tamaño máximo para pantallas de PC */
+  display: block; /* Esto es importante para que el ancho máximo funcione correctamente */
+  margin-left: 20px;
+  margin-top: 20px;
+  }
+  
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+  .logo01 img {
+      width: 80%; /* La imagen ocupa el 80% del ancho de la pantalla */
+      height: auto; /* La altura se ajusta automáticamente para mantener las proporciones */
+      max-width: none; /* Eliminamos el tamaño máximo para dispositivos móviles */
+      display: block; /* Esto es importante para que el ancho funcione correctamente */
+      margin: 0 auto; /* Centra la imagen horizontalmente */
+      margin-top: 20px;
+  }
+  }
+  
+  /*********    barra de busqueda    ***********/
+  
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .search-box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 24px;
+  }
+  .usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .btn-logo img {
+    width: 15%; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+  }
+  }
+  
+  /* Estilos para pantallas de PC */
+  @media screen and (min-width: 600px) {
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .search-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    font-size: 25px;
+  }
+  
+  button {
+    font-size: 30px;
+  }
+  
+  .usuario {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .usuario img {
+    max-width: 90px; /* Tamaño máximo para pantallas de PC */
+  }
+  }
+  
+  /* cursor para botones  */
+  
+  /* Estilos para el botón con imagen y cursor de enlace */
+  .btn-logo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  }
+  
+  /* Estilos adicionales para la imagen dentro del botón (opcional) */
+  
+  
+  
+  
+  /* Estilos para el botón con icono y cursor de enlace */
+  .btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2 ;
+  }
+  
+  /* Estilos adicionales para el icono dentro del botón (opcional) */
+  .btn-icon i {
+  color: #ff0000; /* Cambia el color del icono si lo deseas */
+  /* Ajusta el tamaño del icono según tus necesidades */
+  font-size: 30px;
+  }
+  
+  /*******************************      fin de la parte superior ***********************************/
+  
+  
+  /* Estilos para el menú */
+  .menu {
+  font-family: 'Bauhaus 93', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+  }
+  
+  .menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .menu li {
+  margin: 0 1.5rem;
+  }
+  
+  .menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.625rem;
+  font-size: 2rem;
+  }
+  
+  .menu li a:hover {
+  background-color: #4507ff;
+  }
+  
+  /* Estilos para el menú en pantallas de móviles */
+  @media screen and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0.625rem 0;
+  }
+  }
+  
+  /* Estilos para las opciones del menú */
+  .menu-opciones {
+  padding: 25%;
+  border: 10%;
+  }
+  /********************************************** fin de heard la parte superior ***************************************************************************/
+  
+  .titulo-ultimas-visitas {
+    color: #333; /* Cambia el color del texto a tu preferencia */
+    font-size: 48px; /* Ajusta el tamaño de la fuente según tus necesidades */
+   padding: 45px;
+    margin: 10px 0; /* Agrega un margen de 20px arriba y abajo para separar del contenido */
+  }
+  
+  
+  
+  /* Estilos generales para los productos */
+  .contenedor-productos {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  /* Estilos para cada producto */
+  .producto {
+    width: 22%;
+    margin: 0 auto; 
+  }
+  
+  
+  /* Estilos para el contenido de cada producto */
+  .contenido-producto {
+    padding: 0%;
+    box-shadow: 0 0 20px rgb(233, 9, 9);
+    margin: 5%;
+  }
+  
+  /* Estilos para las imágenes */
+  .imagenes-ultimas-visitas img {
+    width: 100%;
+    height: 500px;
+    /*z-index: 0;*/
+  }
+  .imagenes-ultimas-visitas{
+   
+    z-index: 0;
+  }
+  
+  /* Estilos para  los íconos ***********************/
+  .icono-descarga{
+    color: #005eff;
+    font-size: 30px;
+  }
+  .contenedor-flex {
+    display: flex;
+    align-items: center; /* Centra verticalmente los elementos */
+  }
+  
+  .titulo {
+    flex: 1; /* Permite que el título ocupe todo el espacio sobrante */
+    font-size: 30px; /* Ajusta el tamaño de la fuente según tus necesidades */
+    color: #fff;
+  }
+  
+  .icono-descarga {
+    margin: 0 10px; /* Añade un margen a los lados del icono */
+  }
+  
+  .precio{
+    font-size: 40px; /* Ajusta el tamaño de la fuente según tus necesidades */
+    color: #fff;
+  }
+  
+  
+  
+  
+  /* Estilos para el texto */
+  .descripcion-producto p {
+    margin: 5px 0;
+  }
+  .descripcion-producto {
+    margin: 0% 0;
+    background-color: #1a181896;
+    padding: 5%;
+  }
+  
+  
+  /* Media query para tablets (ancho mínimo 769px) */
+  @media screen and (min-width: 769px) and (max-width: 1023px) {
+    .producto {
+        flex-basis: 44%; /* Dos productos por fila en tablets */
+        margin: 0 auto; 
+    }
+    .contenido-producto {
+      padding: 0%;
+      margin: 5%;
+    }
+    .titulo-ultimas-visitas {
+      color: #333; /* Cambia el color del texto a tu preferencia */
+      
+      text-align: center; /* Centra el texto horizontalmente */
+      margin: 20px 0; /* Agrega un margen de 20px arriba y abajo para separar del contenido */
+    }
+    
+  }
+  
+  /* Media query para dispositivos móviles (ancho máximo 768px) */
+  @media screen and (max-width: 768px) {
+    .producto {
+        flex-basis: 100%; /* Un producto por fila en dispositivos móviles */
+    }
+  
+    .contenido-producto {
+      padding: 0%;
+      margin: 5%;
+    }
+    .titulo-ultimas-visitas {
+      color: #333; /* Cambia el color del texto a tu preferencia */
+     
+      text-align: center; /* Centra el texto horizontalmente */
+      margin: 20px 0; /* Agrega un margen de 20px arriba y abajo para separar del contenido */
+    }
+  
+  
+  } 
+    
+  
+  /********efecto de pequeño zoom al pasar el raton por los productos ********/
+  
+  /* Estilos iniciales de la imagen */
+  .imagenes-ultimas-visitas img {
+    transition: transform 0.3s ease-in-out; /* Transición suave de 0.3 segundos */
+  }
+  
+  /* Estilos para aplicar el zoom en la imagen al pasar el ratón por encima */
+  .imagenes-ultimas-visitas img:hover {
+    transform: scale(1.1); /* Aumenta el tamaño de la imagen al 110% */
+  }
+  
+  
+  
+  /***********************fin de fin para main           *****************************************************************************/
+
+  #css {
+    color: yellow;
+    font-family: 'Odibee Sans', cursive;
+  }
+  
+  .carousel-wrapper {
+    height: 700px;
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: 50px auto ;
+    border: 2px solid black;
+  }
+  
+  .carousel-item {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 25px 50px;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+  .arrow{
+    border: solid black;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 12px;
+  }
+  .arrow-prev {
+    left: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(135deg);
+  
+  }
+  .arrow-next {
+    right: 30px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(-45deg);
+  }
+  
+  [id^= "item"] {
+    display: none;
+  }
+ /* Estilos para cada imagen del carusel */
+.item-1 {
+    z-index: 2;
+    opacity: 1;
+   
+    background: url('/img/carucel03.png');
+    background-size: cover;
+  }
+  
+  .item-2 {
+    background: url('/img/carucel02.png');
+    background-size: cover;
+  }
+  
+  .item-3 {
+    background: url('/img/gta.png');
+    background-size: cover;
+  }
+  
+  .item-4 {
+    background: url('/img/carucel04.png');
+    background-size: cover;
+  }
+  
+  .item-5 {
+    background: url('/img/carucel05.png');
+    background-size: cover;
+  }
+  
+  .item-6 {
+    background: url('/img/carucel06.png');
+    background-size: cover;
+  }
+  
+  /* Cambios en la opacidad y z-index al hacer click */
+  *:target ~ .item-1 {
+    opacity: 0;
+  }
+  
+  #item-1:target ~ .item-1 {
+    opacity: 1;
+  }
+  
+  #item-2:target ~ .item-2,
+  #item-3:target ~ .item-3,
+  #item-4:target ~ .item-4,
+  #item-5:target ~ .item-5,
+  #item-6:target ~ .item-6 {
+    z-index: 3;
+    opacity: 1;
+  }
+  
+  /*****************************************/
+
+
+
+
+  /* Estilos para el botón */
+  .boton-imagen {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    cursor: pointer;
+}
+.boton-imagen img {
+    width: 400px;
+    height: 100px;
+    cursor: pointer;
+  }

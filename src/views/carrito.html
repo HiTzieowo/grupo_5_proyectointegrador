@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/carrito.css">
+    <title>carrito</title>
+    <!-- link para cargar los iconos  -->
+
+    <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <a href="http://localhost:3060/inicio">
+            <div class="logo01">
+                <img src="/img/logo-tienda.png" alt="logo-tienda">
+            </div>
+        </a>
+
+        <!-- barra de búsquedas -->
+        <div class="search-container">
+            <input type="text" placeholder="buscar juegos" style="font-size: 25px;"
+                style="font-family: 'Bauhaus 93', sans-serif;">
+            <button class="btn-icon">
+                <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+            </button>
+
+            <div class="usuario">
+                <a href="http://localhost:3060/iniciarSesion">
+                    <button class="btn-logo">
+                        <img src="/img/logo-usuario.png" alt="logo-usuario">
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- menu de opciones -->
+
+        <nav class="menu">
+            <ul class="menu-opciones">
+                <li><a href="http://localhost:3060/inicio">INICIO</a></li>
+                <li><a href="http://localhost:3060/bibloteca">BIBLIOTECA</a></li>
+                <li><a href="http://localhost:3060/listaDeDeseos">LISTA DE DESEOS</a></li>
+                <li><a href="http://localhost:3060/carrito">CARRITO</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+    <main>
+
+        <div class="carrito">
+            <!-- Primer artículo -->
+            <div class="item" id="articulo-1">
+                <a href="http://localhost:3060/producto">
+                    <img src="/img/gta.png" alt="Producto 1">
+                </a>
+                
+                <a href="http://localhost:3060/producto">
+                    <h3>Grand Theft Auto VI</h3>
+                  </a>
+                <p>$99,98</p>
+                <!-- Botón para eliminar el artículo -->
+                <a href="#articulo-1" class="eliminar">Eliminar</a>
+                <a href="http://localhost:3060/listaDeDeseos" class="mover">Mover a lista de deseos</a>
+            </div>
+
+            <!-- Segundo artículo -->
+            <div class="item2" id="articulo-2">
+                <img src="/img/halo.png" alt="Producto 2">
+                <h3>halo infinite</h3>
+                <p>$150</p>
+                <!-- Botón para eliminar el artículo -->
+                <a href="#articulo-2" class="eliminar">Eliminar</a>
+                <a href="http://localhost:3060/listaDeDeseos" class="mover">Mover a lista de deseos</a>
+            </div>
+
+
+            <!-- Total del carrito -->
+            <div class="total">
+                <h3>Total</h3>
+                <p id="totalPrecio">$249,98</p>
+            </div>
+
+
+                
+        </div>
+        
+
+
+
+
+    </main>
+              <!-- Botón con la imagen -->
+              <a href="https://chat.whatsapp.com/Bg7AfwgEvoiFvSxENXjvJT" class="boton-imagen">
+                <img src="/img/whasapp.png" alt="Botón con Imagen">
+            </a>
+        
+</body>
+
+</html>

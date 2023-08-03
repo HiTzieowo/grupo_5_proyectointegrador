@@ -1,0 +1,298 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/fondo.png'); /* Ruta de la imagen de fondo */
+      background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+      background-position: center; /* Centra la imagen de fondo */
+  }
+/**** fin fondo de pagina******/
+
+.logo01 img {
+  width: 100%; /* La imagen ocupa todo el ancho del div */
+  height: auto; /* La altura se ajusta automáticamente para mantener las proporciones */
+  max-width: 300px; /* Tamaño máximo para pantallas de PC */
+  display: block; /* Esto es importante para que el ancho máximo funcione correctamente */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 600px) {
+  .logo01 img {
+      width: 80%; /* La imagen ocupa el 80% del ancho de la pantalla */
+      height: auto; /* La altura se ajusta automáticamente para mantener las proporciones */
+      max-width: none; /* Eliminamos el tamaño máximo para dispositivos móviles */
+      display: block; /* Esto es importante para que el ancho funcione correctamente */
+      margin: 0 auto; /* Centra la imagen horizontalmente */
+      margin-top: 20px;
+  }
+}
+
+/*********    barra de busqueda    ***********/
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 600px) {
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .search-box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  input[type="text"] {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    font-size: 24px;
+  }
+  .usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .btn-logo img {
+    width: 15%; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+  }
+}
+
+/* Estilos para pantallas de PC */
+@media screen and (min-width: 600px) {
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .search-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  input[type="text"] {
+    font-size: 25px;
+  }
+
+  button {
+    font-size: 30px;
+  }
+
+  .usuario {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .usuario img {
+    max-width: 90px; /* Tamaño máximo para pantallas de PC */
+}
+}
+
+/* cursor para botones  */
+
+/* Estilos para el botón con imagen y cursor de enlace */
+.btn-logo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Estilos adicionales para la imagen dentro del botón (opcional) */
+
+
+
+
+/* Estilos para el botón con icono y cursor de enlace */
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2 ;
+}
+
+/* Estilos adicionales para el icono dentro del botón (opcional) */
+.btn-icon i {
+  color: #ff0000; /* Cambia el color del icono si lo deseas */
+  /* Ajusta el tamaño del icono según tus necesidades */
+  font-size: 30px;
+}
+
+/*******************************      fin de la parte superior ***********************************/
+
+
+/* Estilos para el menú */
+.menu {
+  font-family: 'Bauhaus 93', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 1.5rem;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.625rem;
+  font-size: 2rem;
+}
+
+.menu li a:hover {
+  background-color: #4507ff;
+}
+
+/* Estilos para el menú en pantallas de móviles */
+@media screen and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0.625rem 0;
+  }
+}
+
+/* Estilos para las opciones del menú */
+.menu-opciones {
+  padding: 25%;
+  border: 10%;
+}
+/********************************************** fin de heard la parte superior ***************************************************************************/
+
+
+
+/* Estilos para el carrito */
+.carrito {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Estilos para cada artículo en el carrito */
+.item, .item2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+}
+
+/* Estilos para las imágenes de los productos */
+.item img, .item2 img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+/* Estilos para los botones de eliminar */
+.eliminar, .eliminar2 {
+  background-color: #ff0000;
+  color: #ffffff;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  font-size: 25PX;
+  border-radius: 10%;
+  text-decoration: none;
+}
+
+.mover{
+    background-color: #001aff;
+    color: #ffffff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 25PX;
+    text-decoration: none;
+}
+
+/* Estilos para el total del carrito */
+.total {
+  width: 80%;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ddd;
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Estilos para el título del carrito */
+h3 {
+  margin: 0;
+  color: #fff;
+  font-size: 30PX;
+}
+p{
+  color: #fff; 
+  font-size: 30PX; 
+}
+
+/* Estilos para el precio total */
+#totalPrecio {
+  font-weight: bold;
+}
+
+/* Estilos para ocultar los artículos con la pseudoclase :target */
+.item:target, .item2:target {
+  display:none;
+}
+
+/* Estilos adicionales para el botón de eliminar */
+.eliminar, .eliminar2 {
+  cursor: pointer;
+  color: rgb(255, 255, 255);
+}
+
+
+
+
+/*************************/
+
+  /* Estilos para el botón */
+  .boton-imagen {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 9999;
+    cursor: pointer;
+}
+.boton-imagen img {
+    width: 400px;
+    height: 100px;
+    cursor: pointer;
+  }

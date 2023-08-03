@@ -1,0 +1,816 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/fondo.png'); /* Ruta de la imagen de fondo */
+      background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+      background-position: center; /* Centra la imagen de fondo */
+  }
+/**** fin fondo de pagina******/
+
+.logo01 img {
+  width: 100%; /* La imagen ocupa todo el ancho del div */
+  height: auto; /* La altura se ajusta automáticamente para mantener las proporciones */
+  max-width: 300px; /* Tamaño máximo para pantallas de PC */
+  display: block; /* Esto es importante para que el ancho máximo funcione correctamente */
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .logo01 img {
+      width: 80%; /* La imagen ocupa el 80% del ancho de la pantalla */
+      height: auto; /* La altura se ajusta automáticamente para mantener las proporciones */
+      max-width: none; /* Eliminamos el tamaño máximo para dispositivos móviles */
+      display: block; /* Esto es importante para que el ancho funcione correctamente */
+      margin: 0 auto; /* Centra la imagen horizontalmente */
+      margin-top: 20px;
+  }
+}
+
+/*********    barra de busqueda    ***********/
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .search-box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  input[type="text"] {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    font-size: 24px;
+  }
+  .usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .btn-logo img {
+    width: 15%; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+  }
+}
+
+/* Estilos para pantallas de PC */
+@media screen and (min-width: 768px) {
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .search-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+  }
+
+  input[type="text"] {
+    font-size: 25px;
+  }
+
+  button {
+    font-size: 30px;
+  }
+
+  .usuario {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .usuario img {
+    max-width: 90px; /* Tamaño máximo para pantallas de PC */
+}
+}
+
+/* cursor para botones  */
+
+/* Estilos para el botón con imagen y cursor de enlace */
+.btn-logo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+
+/* Estilos adicionales para la imagen dentro del botón (opcional) */
+
+
+
+
+/* Estilos para el botón con icono y cursor de enlace */
+.btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2 ;
+}
+
+/* Estilos adicionales para el icono dentro del botón (opcional) */
+.btn-icon i {
+  color: #ff0000; /* Cambia el color del icono si lo deseas */
+  /* Ajusta el tamaño del icono según tus necesidades */
+  font-size: 30px;
+}
+
+/*******************************      fin de la parte superior ***********************************/
+
+
+/* Estilos para el menú */
+
+/* Estilos para el menú en pantallas de PC */
+.menu {
+  background-color: transparent; /*si queres un color de fondo el el menu cambia qui*/
+  font-family: 'Bauhaus 93', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 1 30px;
+  margin: 0 30px;
+}
+
+.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.menu li {
+  margin: 0 50px;
+}
+
+.menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  font-size: 32px;
+}
+
+.menu li a:hover {
+  background-color: #4507ff;
+}
+
+/* Estilos para el menú en pantallas de móviles */
+@media screen and (max-width: 767px) {
+  .menu {
+      flex-direction: column;
+      align-items: center;
+      background-color: transparent; /*si queres un color de fondo el el menu cambia qui*/
+      font-family: 'Bauhaus 93', sans-serif;
+      padding: 10px;
+  }
+  
+  .menu ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 0;
+      margin: 0;
+  }
+  
+  .menu li {
+      margin: 10px 0;
+  }
+}
+/*fin del barra menu*/
+
+/*** titulo juego ******/
+
+
+/* Estilos para el encabezado h2 */
+.titulo-del-juego {
+  color: #ffffff; /* Cambia el color del texto a naranja oscuro */
+  font-size: 300px; /* Cambia el tamaño de la fuente a 40px */
+  margin-top: 50px; /* Añade un margen superior de 30px */
+  margin-bottom: -190px; /* Añade un margen inferior de 20px */
+  font-family: 'Baskerville Old Face', sans-serif;
+  margin-left: 450px;
+}
+
+/* Estilos para el encabezado h2 */
+.cambiar-tamano {
+ 
+  font-size: 70px; /* Tamaño inicial de la fuente a 40px */
+  
+}
+/* Estilos para el encabezado h2 en dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .titulo-del-juego {
+    text-align: center; /* Centra el texto horizontalmente */
+    font-size: 60px; /* Tamaño de fuente para dispositivos móviles */
+    margin: 50px auto; /* Margen superior e inferior de 50px, centrado horizontalmente */
+    width: 90%; /* Ancho del título al 90% de la pantalla */
+    font-family: 'Baskerville Old Face', sans-serif;
+  }
+
+  /* Estilos adicionales para cambiar el tamaño del texto en dispositivos móviles */
+  .cambiar-tamano {
+    font-size: 50px; /* Tamaño de fuente para dispositivos móviles */
+  }
+}
+
+
+
+
+/**** carucel inicio ***************/
+
+  
+
+.carrusel {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+}
+
+.carrusel ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-width: 800px; 
+  scroll-behavior: smooth;
+}
+
+.carrusel-fotos {
+  display: flex;
+  gap: 10px;
+  overflow: auto;
+
+width: 800px; /* Ajusta el ancho de la caja */
+height: 600px; /* Ajusta la altura de la caja para mantener la proporción */
+
+}
+
+.carrusel-fotos img {
+  /*background: black;            en fonde de las imgenes 
+  border: 4px solid black;   borde de la caja de images */
+  width: 800px;
+  height: 700px;
+  object-fit: contain;
+}
+
+.carrusel-menu {
+  display: none;
+}
+
+.carrusel-todo{
+  transform: translate(-100px, 30px); /*si quieres mover el carrusel hizontalmente (x , y) verticalmente*/
+  
+}
+
+@media screen and (min-width: 500px) {
+  .carrusel-fotos {
+    overflow: hidden;
+  }
+
+  .carrusel-fotos img {
+    width: 800px;
+    height: 700px;
+  }
+  .carrusel-menu {
+    display: flex;
+    gap: 8px;
+    justify-content:center;
+  }
+  .carrusel-menu img {
+    box-sizing: border-box;
+    width: 150px;
+    height: 100px;
+    border: 0px solid;
+  }
+  .carrusel-menu img:hover {
+    border: none;
+  }
+}
+
+/**          fin carucel    ******/
+
+
+/*** precio juego ******/
+
+
+/* Estilos para el elemento .precio-juego */
+.precio-juego {
+  color: #ffffff; /* Cambia el color del texto a naranja oscuro */
+  font-size: 300px; /* Cambia el tamaño de la fuente a 40px */
+  margin-top: 50px; /* Añade un margen superior de 30px */
+  margin-bottom: -190px; /* Añade un margen inferior de 20px */
+  font-family: 'Baskerville Old Face', sans-serif;
+  margin-left: 450px; /* Añade un margen izquierdo de 450px */
+  position: relative; /* Añade posición relativa para mover el elemento */
+  top: -600px; /* Desplaza el elemento 100px hacia abajo */
+  left: 850px; /* Desplaza el elemento 50px hacia la derecha */
+}
+
+/* Estilos para el encabezado h2 */
+.precio-juego-pc {
+  font-size: 70px; /* Tamaño inicial de la fuente a 40px */
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (min-width: 767px) {
+  
+  .precio-juego-movil {
+    display: none;
+  }
+}
+
+
+
+
+
+
+
+/******************** inicio de botones ********************************/
+
+@import url('https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@100&@700&display=swap');
+
+
+
+.contenedor{
+    display: flex;
+    
+    gap: 20px; /* Ajusta el espacio vertical entre los botones */
+    flex-wrap: wrap;
+    justify-content: space-around;
+   
+    flex-direction: column;
+    
+}
+
+
+
+
+.btn{
+    position: relative;
+    padding: 20px 50px;
+    text-decoration: none;
+    color: #fff;
+    letter-spacing:10px;
+    text-indent: 1px;
+    z-index: 2;
+}
+.btn-1 {
+    width: 220px;
+    height: 40px;
+    left: 1300px;
+    top: -450px;
+   
+  }
+.btn-2 {
+  width: 220px;
+  height: 40px;
+  left: 1300px;
+  top: -450px;
+  }
+  
+  .btn-3 {
+    width: 220px;
+    height: 40px;
+    left: 1300px;
+    top: -450px;
+  }
+  
+
+
+
+/*-----------boton de barido ----------*/
+
+.btn-2{
+    transition: all 0.6s ease;
+    
+}
+
+.btn-2::after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 110%;
+    left: -10%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: #ffffff;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.btn-2::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    border: 3px solid #03cc57;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.btn-2:hover::after{
+    background-color: #ffffff31;
+    transform: skew(20deg, 0deg) translateX(240px);
+}
+
+.btn-2:hover::before{
+    background-color: #03cc57;
+    border: 3px solid #029740;
+    transform: skew(20deg, 0deg) scale(1.1);
+}
+/*****/
+.btn-3{
+    transition: all 0.6s ease;
+}
+
+.btn-3::after{
+    content: "";
+    position: absolute;
+    width: 20%;
+    height: 110%;
+    left: -10%;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    background-color: #ffffff;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.btn-3::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    transform: skew(20deg, 0deg);
+    border: 3px solid #ec0da5;
+    transition: all 0.4s ease;
+    z-index: -1;
+}
+
+.btn-3:hover::after{
+    background-color: #ffffff31;
+    transform: skew(20deg, 0deg) translateX(240px);
+}
+
+.btn-3:hover::before{
+    background-color: #ec0da5;
+    border: 3px solid #ec0da5;
+    transform: skew(20deg, 0deg) scale(1.1);
+}
+
+/*-----------boton rgb----------*/
+
+.btn-1::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(90deg, rgb(255, 30, 143), rgb(19, 227, 255), rgb(251, 255, 20), rgb(255, 15, 15));
+    background-size: 300%;
+    border-radius: 5px;
+    z-index: -1;
+    transition: all 0.4s ease;
+}
+
+.btn-1:hover::after{
+    background-position: 100%;
+    filter: blur(15px);
+}
+
+.btn-1::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-image: linear-gradient(90deg, rgb(255, 30, 143), rgb(19, 227, 255), rgb(251, 255, 20), rgb(255, 15, 15));
+    background-size: 300%;
+    border-radius: 5px;
+    z-index: -1;
+}
+
+.btn-1:hover::before{
+    background-position: 100%;
+}
+
+/* ****** fin de botones ***********/
+
+@media screen and (max-width: 500px) {
+
+  .contenedor{
+      display: flex;
+      
+      gap: 20px; /* Ajusta el espacio vertical entre los botones */
+      flex-wrap: wrap;
+      justify-content: space-around;
+     
+      flex-direction: column;
+      
+  }
+
+  .precio-juego-pc{
+    display: none;
+  }
+  
+  
+  
+  
+  .btn{
+      position: relative;
+      padding: 20px 50px;
+      text-decoration: none;
+      color: #fff;
+      letter-spacing:10px;
+      text-indent: 1px;
+      z-index: 2;
+  }
+  .btn-1 {
+      width: 60%;
+      height: auto;
+      left: auto;
+      top: auto;
+      position: relative;
+      justify-content: center;
+     
+    }
+  .btn-2 {
+    width: 60%;
+      height: auto;
+      left: auto;
+      top: auto;
+      position: relative;
+      justify-content: baseline;
+    }
+    
+    .btn-3 {
+      width: 60%;
+      height: auto;
+      left: auto;
+      top: auto;
+      position: relative;
+      justify-content: baseline;
+    }
+    
+  
+  
+  
+  /*-----------boton de barido ----------*/
+  
+  .btn-2{
+      transition: all 0.6s ease;
+      
+  }
+  
+  .btn-2::after{
+      content: "";
+      position: absolute;
+      width: 20%;
+      height: 110%;
+      left: -10%;
+      top: 0;
+      transform: skew(20deg, 0deg);
+      background-color: #ffffff;
+      z-index: -1;
+      transition: all 0.4s ease;
+  }
+  
+  .btn-2::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      transform: skew(20deg, 0deg);
+      border: 3px solid #03cc57;
+      transition: all 0.4s ease;
+      z-index: -1;
+  }
+  
+  .btn-2:hover::after{
+      background-color: #ffffff31;
+      transform: skew(20deg, 0deg) translateX(240px);
+  }
+  
+  .btn-2:hover::before{
+      background-color: #03cc57;
+      border: 3px solid #029740;
+      transform: skew(20deg, 0deg) scale(1.1);
+  }
+  /*****/
+  .btn-3{
+      transition: all 0.6s ease;
+  }
+  
+  .btn-3::after{
+      content: "";
+      position: absolute;
+      width: 20%;
+      height: 110%;
+      left: -10%;
+      top: 0;
+      transform: skew(20deg, 0deg);
+      background-color: #ffffff;
+      z-index: -1;
+      transition: all 0.4s ease;
+  }
+  
+  .btn-3::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      transform: skew(20deg, 0deg);
+      border: 3px solid #ec0da5;
+      transition: all 0.4s ease;
+      z-index: -1;
+  }
+  
+  .btn-3:hover::after{
+      background-color: #ffffff31;
+      transform: skew(20deg, 0deg) translateX(240px);
+  }
+  
+  .btn-3:hover::before{
+      background-color: #ec0da5;
+      border: 3px solid #ec0da5;
+      transform: skew(20deg, 0deg) scale(1.1);
+  }
+  
+  /*-----------boton rgb----------*/
+  
+  .btn-1::after{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-image: linear-gradient(90deg, rgb(255, 30, 143), rgb(19, 227, 255), rgb(251, 255, 20), rgb(255, 15, 15));
+      background-size: 300%;
+      border-radius: 5px;
+      z-index: -1;
+      transition: all 0.4s ease;
+  }
+  
+  .btn-1:hover::after{
+      background-position: 100%;
+      filter: blur(15px);
+  }
+  
+  .btn-1::before{
+      content: "";
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      left: 0;
+      top: 0;
+      background-image: linear-gradient(90deg, rgb(255, 30, 143), rgb(19, 227, 255), rgb(251, 255, 20), rgb(255, 15, 15));
+      background-size: 300%;
+      border-radius: 5px;
+      z-index: -1;
+  }
+  
+  .btn-1:hover::before{
+      background-position: 100%;
+  }
+
+}
+/********* fin de botones *************************************/
+
+/**** descripcion ****************/
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.descripcion-juego {
+  max-width: 40%x;
+  margin: 0% auto;
+  padding: 20px;
+}
+
+.titulo-juego {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+.subtitulo {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.subtitulo-preparado {
+  font-size: 24px;
+  text-align: center;
+  font-style: italic;
+}
+
+strong {
+  font-weight: bold;
+}
+
+:root {
+  --descripcion-width: 60%; /* Ancho predeterminado, 100% de la pantalla */
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #333;
+  color: #fff;
+}
+
+.descripcion-juego {
+  max-width: var(--descripcion-width);
+  margin: -10% auto;
+  padding: 20px;
+}
+
+.titulo-juego {
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  color: #ff9900;
+}
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 767px) {
+  .descripcion-juego {
+    --descripcion-width: 90%; /* Ancho del 90% para dispositivos móviles */
+      margin: 0% auto;
+      padding: 20px;
+    
+  }
+
+  .titulo-juego {
+    font-size: 28px; /* Tamaño del título reducido para dispositivos móviles */
+  }
+
+  .subtitulo {
+    font-size: 18px; /* Tamaño del subtítulo reducido para dispositivos móviles */
+  }
+
+  ul {
+    margin-left: 10px; /* Margen reducido para dispositivos móviles */
+  }
+
+  p {
+    margin-bottom: 10px; /* Margen reducido para dispositivos móviles */
+  }
+
+  .subtitulo-preparado {
+    font-size: 20px; /* Tamaño del subtítulo reducido para dispositivos móviles */
+  }
+}
+
+/****** fin descripcion  ***************************/
+
+
+
+

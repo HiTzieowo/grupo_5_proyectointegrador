@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/inicio.css">
+    <title>carrito</title>
+    <!-- link para cargar los iconos  -->
+
+    <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <a href="http://localhost:3060/inicio">
+            <div class="logo01">
+                <img src="/img/logo-tienda.png" alt="logo-tienda">
+            </div>
+        </a>
+
+        <!-- barra de búsquedas -->
+        <div class="search-container">
+            <input type="text" placeholder="buscar juegos" style="font-size: 25px;"
+                style="font-family: 'Bauhaus 93', sans-serif;">
+            <button class="btn-icon">
+                <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+            </button>
+
+            <div class="usuario">
+                <a href="http://localhost:3060/iniciarSesion">
+                    <button class="btn-logo">
+                        <img src="/img/logo-usuario.png" alt="logo-usuario">
+                    </button>
+                </a>
+            </div>
+        </div>
+
+        <!-- menu de opciones -->
+
+        <nav class="menu">
+            <ul class="menu-opciones">
+                <li><a href="http://localhost:3060/inicio">INICIO</a></li>
+                <li><a href="http://localhost:3060/bibloteca">BIBLIOTECA</a></li>
+                <li><a href="http://localhost:3060/listaDeDeseos">LISTA DE DESEOS</a></li>
+                <li><a href="http://localhost:3060/carrito">CARRITO</a></li>
+            </ul>
+        </nav>
+
+
+
+    </header>
+
+    <main>
+         <!-- inicio de carrcel -->
+        <div class="carousel-wrapper">
+            <span id="item-1"></span>
+            <span id="item-2"></span>
+            <span id="item-3"></span>
+            <span id="item-4"></span>
+            <span id="item-5"></span>
+            <span id="item-6"></span>
+            
+            <div class="carousel-item item-1">
+              <a href="#item-6" class="arrow-prev arrow"></a>
+              <a href="#item-2" class="arrow-next arrow"></a>
+            </div>
+          
+            <div class="carousel-item item-2">
+              <a href="#item-1" class="arrow-prev arrow"></a>
+              <a href="#item-3" class="arrow-next arrow"></a>
+            </div>
+          
+            <div class="carousel-item item-3">
+              <a href="#item-2" class="arrow-prev arrow"></a>
+              <a href="#item-4" class="arrow-next arrow"></a>
+            </div>
+          
+            <div class="carousel-item item-4">
+              <a href="#item-3" class="arrow-prev arrow"></a>
+              <a href="#item-5" class="arrow-next arrow"></a>
+            </div>
+          
+            <div class="carousel-item item-5">
+              <a href="#item-4" class="arrow-prev arrow"></a>
+              <a href="#item-6" class="arrow-next arrow"></a>
+            </div>
+          
+            <div class="carousel-item item-6">
+              <a href="#item-5" class="arrow-prev arrow"></a>
+              <a href="#item-1" class="arrow-next arrow"></a>
+            </div>
+          </div>
+          <!-- fin de carrcel -->
+
+            <!-- Contenedor de los productos -->
+            <div class="contenedor-productos">
+
+                <!-- Productos01 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto01.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Mortal Kombat 1</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$79</p>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Productos02 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <a href="http://localhost:3060/producto">
+                            <div class="imagenes-ultimas-visitas">
+                                <img src="/img/imagenes-productos/producto02.png" alt="Imagen de MacBook">
+                            </div>
+                        </a>
+                        <div class="descripcion-producto">
+                            <a href="http://localhost:3060/producto">
+                                <h2 class="titulo">Grand Theft Auto VI</h2>
+                            </a>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$99,98</p>
+                            </div>
+
+
+
+
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Productos03 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto03.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Minecraft</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$24</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Productos04 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto04.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">FIFA 23</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$35</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Productos05 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto05.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Divil MayCry 5</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$55</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Productos06 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto06.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Demons Slayers</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$58</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Productos07 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto07.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Serious Sam 4</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$19</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Productos08 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto08.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Left 4 Dead 3</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$99</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Productos09 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto09.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Half-Life 3</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$333</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Productos10 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto10.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Madison</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$41</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Productos11 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto11.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">Rust</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                    
+                                    <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$9</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+                <!-- Productos12 -->
+                <article class="producto">
+                    <div class="contenido-producto">
+                        <div class="imagenes-ultimas-visitas">
+                            <img src="/img/imagenes-productos/producto12.png" alt="Imagen de MacBook">
+                        </div>
+                        <div class="descripcion-producto">
+                            <h2 class="titulo">The Last of US parte II</h2>
+                            <div class="contenedor-flex">
+
+                                <div class="icono-descarga">
+                                   <i class="fa-solid fa-gamepad" style="color: #ff0088;"></i>
+                                </div>
+                                <p class="precio">$56</p>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+
+            <!-- Botón con la imagen -->
+    <a href="https://chat.whatsapp.com/Bg7AfwgEvoiFvSxENXjvJT" class="boton-imagen">
+        <img src="/img/whasapp.png" alt="Botón con Imagen">
+    </a>
+
+
+
+    </main>
+
+</body>
+
+</html>
