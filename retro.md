@@ -14,3 +14,6 @@ Asimismo, otra oportunidad de mejora habría sido coordinar sesiones de estudio 
 
 Cumplimiento de Requisitos:
 El proyecto ha sido exitoso en cumplir con todas las pautas y requisitos establecidos desde el inicio. Desde su concepción hasta su ejecución, se ha seguido meticulosamente el plan trazado, alcanzando de manera efectiva todos los objetivos propuestos. Cada etapa del proceso ha sido llevada a cabo con precisión y dedicación, asegurando la total satisfacción de las especificaciones establecidas. El resultado final es una solución que satisface plenamente las necesidades y expectativas del proyecto, demostrando un cumplimiento sobresaliente de los requisitos planteados.
+
+Comunicacion: En cuanto a la comunicacion nos organizamos con reuniones los fines de semana con la duracion de 1 hora ya que nos parecia un tiempo y frecuencia adecuada, tambien,  desde el inicio del proyecto estuvimos en un grupo de
+WhatsApp en donde nos podiamos comunicar en cualquier horario.
