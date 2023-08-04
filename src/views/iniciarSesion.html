@@ -16,18 +16,19 @@
         </header>
 
         <form class="login" action="/bibloteca" method="get">
-            <p>e-mail</p>
+            <h2>E-mail</h2>
             <input class="email" type="email" name="email" id="email" placeholder="Ingrese su email" required>
-            <p>Contraseña</p>
-            <input class="password" type="password" name="password" id="password" placeholder="Ingrese su contraseña" required>
+            <h2>Contraseña</h2>
+            <input class="password" type="password" name="password" id="password" placeholder="Ingrese su contraseña"
+                required>
             <div class="caja1">
-            <div class="recordar">
-                <label for="recordar">recordar</label>
-                <input type="checkbox" name="recordar" id="recordar">
+                <div class="recordar">
+                    <label for="recordar">recordar</label>
+                    <input type="checkbox" name="recordar" id="recordar">
+                </div>
+                <a href="/recuperarContraseña">Olvidé mi contraseña</a>
             </div>
-            <a href="/recuperarContraseña">Olvidé mi contraseña</a>
-        </div>
-                <button class="iniciar-sesion" type="submit">Iniciar Sesión</button>
+            <button class="iniciar-sesion" type="submit">Iniciar Sesión</button>
         </form>
         <form class="redes" action="/login" method="post">
             <img class="icon" src="img/facebook-icon.png" alt="facebook">
@@ -38,7 +39,7 @@
 
 
         <footer>
-            <span>¿No tienes una cuenta?</span>
+            <span>¿No tienes una cuenta? →</span>
             <a href="http://localhost:3060/register">Registrate</a>
 
         </footer>
