@@ -13,7 +13,7 @@ router.get("/", mainController.index);
 /*  res.sendFile(path.resolve(__dirname, "../views/index.html")) */
 router.get("/bibloteca", mainController.bibloteca);
 
-
+router.get("/listaDeDeseos", mainController.listaDeDeseos);
 
 router.get("/carrito", mainController.carrito);
 
