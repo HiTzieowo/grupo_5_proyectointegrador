@@ -1,0 +1,4 @@
+trabajar primero hay que hacer git pull origin main para descargar todos los cambios
+una vez que ya terminaste de trabajar haces git add .
+despues git commit -m "nombre de la commit"
+y al ultimo git push origin main y ya se sube todo

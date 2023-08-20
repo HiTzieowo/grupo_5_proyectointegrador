@@ -11,5 +11,9 @@ const productsController = require("../controllers/productsController.js")
 // Procesa el pedido get con ruta /
 router.get("/producto", productsController.productoDetalle);
 
+router.get("/cargaDeProducto", productsController.productocarga);
+
+router.get("/edicionDeProducto", productsController.productoedicion); 
+
 // Exportamos la variable router ya con todas las rutas "guardadas", que se usará en app.js
 module.exports = router;

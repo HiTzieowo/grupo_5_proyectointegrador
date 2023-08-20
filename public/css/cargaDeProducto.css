@@ -1,0 +1,224 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('/img/fondo.png'); /* Ruta de la imagen de fondo */
+      background-size: cover; /* Ajusta la imagen para cubrir todo el fondo */
+      background-position: center; /* Centra la imagen de fondo */
+  }
+  /**** fin fondo de pagina******/
+  
+  .logo01 img {
+  width: 100%; /* La imagen ocupa todo el ancho del div */
+  height: auto; /* La altura se ajusta automáticamente para mantener las proporciones */
+  max-width: 300px; /* Tamaño máximo para pantallas de PC */
+  display: block; /* Esto es importante para que el ancho máximo funcione correctamente */
+  margin-left: 20px;
+  margin-top: 20px;
+  }
+  
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+  .logo01 img {
+      width: 80%; /* La imagen ocupa el 80% del ancho de la pantalla */
+      height: auto; /* La altura se ajusta automáticamente para mantener las proporciones */
+      max-width: none; /* Eliminamos el tamaño máximo para dispositivos móviles */
+      display: block; /* Esto es importante para que el ancho funcione correctamente */
+      margin: 0 auto; /* Centra la imagen horizontalmente */
+      margin-top: 20px;
+  }
+  }
+  
+  /*********    barra de busqueda    ***********/
+  
+  
+  /* Estilos para dispositivos móviles */
+  @media screen and (max-width: 600px) {
+  .search-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .search-box {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  input[type="text"] {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  button {
+    font-size: 24px;
+  }
+  .usuario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+  }
+  .btn-logo img {
+    width: 15%; /* Ajusta el tamaño de la imagen según tus necesidades */
+    height: auto;
+  }
+  }
+  
+  /* Estilos para pantallas de PC */
+  @media screen and (min-width: 600px) {
+  .search-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  
+  .search-box {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  input[type="text"] {
+    font-size: 25px;
+  }
+  
+  button {
+    font-size: 30px;
+  }
+  
+  .usuario {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .usuario img {
+    max-width: 90px; /* Tamaño máximo para pantallas de PC */
+  }
+  }
+  
+  /* cursor para botones  */
+  
+  /* Estilos para el botón con imagen y cursor de enlace */
+  .btn-logo {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  }
+  
+  /* Estilos adicionales para la imagen dentro del botón (opcional) */
+  
+  
+  
+  
+  /* Estilos para el botón con icono y cursor de enlace */
+  .btn-icon {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2 ;
+  }
+  
+  /* Estilos adicionales para el icono dentro del botón (opcional) */
+  .btn-icon i {
+  color: #ff0000; /* Cambia el color del icono si lo deseas */
+  /* Ajusta el tamaño del icono según tus necesidades */
+  font-size: 30px;
+  }
+  
+  /*******************************      fin de la parte superior ***********************************/
+  
+  
+  /* Estilos para el menú */
+  .menu {
+  font-family: 'Bauhaus 93', sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 1rem 3rem;
+  }
+  
+  .menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  }
+  
+  .menu li {
+  margin: 0 1.5rem;
+  }
+  
+  .menu li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 0.625rem;
+  font-size: 2rem;
+  }
+  
+  .menu li a:hover {
+  background-color: #4507ff;
+  }
+  
+  /* Estilos para el menú en pantallas de móviles */
+  @media screen and (max-width: 600px) {
+  .menu {
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem;
+  }
+  
+  .menu ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu li {
+    margin: 0.625rem 0;
+  }
+  }
+  
+  /* Estilos para las opciones del menú */
+  .menu-opciones {
+  padding: 25%;
+  border: 10%;
+  }
+  /********************************************** fin de heard la parte superior ***************************************************************************/
+  form {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    box-shadow: 0 0 20px 0 rgba(255, 6, 6, 0.825);
+    border-radius: 10px;
+  }
+  
+  .formulario {
+    width: 98%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+  }
+  
+  .enviar{
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  h1{
+    font-family: 'Bauhaus 93', sans-serif;
+  }
+  p{
+    color: #fff;
+  }

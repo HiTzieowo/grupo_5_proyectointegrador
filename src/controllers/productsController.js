@@ -9,7 +9,17 @@ const productsController = {
         // comunicarse con el modelo, conseguir información
         res.sendFile(path.resolve(__dirname, "../views/producto.html"))
     },
+    productocarga: (req, res) => {
+        // comunicarse con el modelo, conseguir información
+        res.sendFile(path.resolve(__dirname, "../views/cargaDeProducto.html"))
+    },
+    productoedicion: (req, res) => {
+        // comunicarse con el modelo, conseguir información
+        res.sendFile(path.resolve(__dirname, "../views/edicionDeProducto.html"))
+    },
+
 }
+
 
 // Exportamos el objeto literal con los distintos métodos, que se usará en el enrutador por defecto
 module.exports = productsController;

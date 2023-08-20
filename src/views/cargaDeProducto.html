@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/cargaDeProducto.css">
+    <title>carrito</title>
+    <!-- link para cargar los iconos  -->
+
+    <script src="https://kit.fontawesome.com/b408879b64.js" crossorigin="anonymous"></script>
+
+    <script src="script.js"></script>
+
+</head>
+<body>
+  <header>
+    <a href="http://localhost:3060/">
+        <div class="logo01">
+            <img src="/img/logo-tienda.png" alt="logo-tienda">
+        </div>
+    </a>
+
+    <!-- barra de búsquedas -->
+    <div class="search-container">
+        <input type="text" placeholder="buscar juegos" style="font-size: 25px;"
+            style="font-family: 'Bauhaus 93', sans-serif;">
+        <button class="btn-icon">
+            <i class="fa-solid fa-magnifying-glass" style="font-size: 30px;"></i>
+        </button>
+
+        <div class="usuario">
+            <a href="http://localhost:3060/inicioDeSesion">
+                <button class="btn-logo">
+                    <img src="/img/logo-usuario.png" alt="logo-usuario">
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <!-- menu de opciones -->
+
+    <nav class="menu">
+        <ul class="menu-opciones">
+           
+            <li><a href="http://localhost:3060/">INICIO</a></li>
+            <li><a href="http://localhost:3060/bibloteca">BIBLIOTECA</a></li>
+            <li><a href="http://localhost:3060/listaDeDeseos">LISTA DE DESEOS</a></li>
+            <li><a href="http://localhost:3060/carrito">CARRITO</a></li>
+            <li><a href="http://localhost:3060/cargaDeProducto">ADMIN</a></li>
+        </ul>
+    </nav>
+
+
+
+  </header>
+  <main>
+    <form action="upload.php" method="get" enctype="multipart/form-data">
+        <H1>Carga de un nuevo producto</H1>
+        <input class="formulario" type="text" name="name" placeholder="Nombre del producto">
+        <input class="formulario"type="text" name="description" placeholder="Descripción del producto">
+        <input class="formulario"type="text" name="history" placeholder="Historia del juego">
+        <input class="formulario"type="file" name="image[]" multiple max="5">
+        <input class="formulario"type="text" name="category" placeholder="Categoría del producto">
+        <input class="formulario"type="number" name="price" placeholder="Precio del producto">
+        <input class="enviar"type="submit" value="Crear Producto">
+      </form>
+      
+  </main>
+  <footer>
+    <p>Copyright &copy; 2023 My E-Commerce Website</p>
+  </footer>
+</body>
+</html>
