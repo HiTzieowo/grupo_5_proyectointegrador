@@ -3,6 +3,10 @@ const express = require("express");
 const app = express();
 
 
+
+
+
+
     // Importamos los distintos enrutadores
     const mainRouter = require("./routers/mainRouter.js")
 
@@ -12,7 +16,7 @@ const app = express();
    
 
     // Usando recursos estáticos.
-app.use(express.static("public"));
+    app.use(express.static("public"));
 
 // Usando los enrutadores importados
 app.use("/", mainRouter);

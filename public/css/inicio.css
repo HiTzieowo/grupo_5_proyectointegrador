@@ -443,3 +443,54 @@ body {
     height: 100px;
     cursor: pointer;
   }
+  /*********************************footer**********************/
+
+  /* Estilos para cada sección */
+section {
+  text-align: center; /* Centra el contenido de cada sección horizontalmente */
+  padding: 2%;
+
+}
+
+/* Estilos para el icono en cada sección */
+section i {
+  font-size: 60px;
+}
+p{
+  color: #fff;
+  font-size: 25px;
+}
+h3{
+  color: #fff;
+  font-size: 50px;
+}
+
+.icono-whatsapp i,
+.icono-de-youtube i,
+.icono-facebook i {
+  font-size: 125px;
+}
+/* Estilos iniciales */
+.icono-de-youtube,
+.icono-whatsapp,
+.icono-facebook {
+  font-size: 50px;
+  color:  #ffffff;
+  transition: color 0.3s, transform 0.3s; /* Agrega una transición suave para el cambio de color y el zoom */
+}
+
+/* Efecto al pasar el ratón */
+
+.icono-de-youtube:hover {
+  color: #ff0000; /* Cambia el color al rojo al pasar el ratón */
+  transform: scale(1.3); /* Hace un zoom del 20% al pasar el ratón */
+}
+.icono-whatsapp:hover {
+  color: #3fdb51; /* Cambia el color al rojo al pasar el ratón */
+  transform: scale(1.3); /* Hace un zoom del 20% al pasar el ratón */
+}
+.icono-facebook:hover {
+  color: #003cff; /* Cambia el color al rojo al pasar el ratón */
+  transform: scale(1.3); /* Hace un zoom del 20% al pasar el ratón */
+}
+
